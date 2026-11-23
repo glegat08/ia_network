@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{B9312286-7562-4DD4-87C5-DE029D5FC3EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\mlp">
+      <UniqueIdentifier>{52AF4E24-11C7-4DD4-9549-D1C5DC9B23F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\neuronal">
+      <UniqueIdentifier>{5B519B94-7995-4EA0-8012-13CC0984E32E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\main.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
