@@ -2,18 +2,47 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="include">
-      <UniqueIdentifier>{B9312286-7562-4DD4-87C5-DE029D5FC3EF}</UniqueIdentifier>
+      <UniqueIdentifier>{79A17C83-8B06-456D-84F1-373CF4AAE322}</UniqueIdentifier>
     </Filter>
     <Filter Include="include\mlp">
-      <UniqueIdentifier>{52AF4E24-11C7-4DD4-9549-D1C5DC9B23F8}</UniqueIdentifier>
+      <UniqueIdentifier>{8FF1A2EA-F7AA-4B68-809B-45DFD66FA8FB}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\neuronal">
-      <UniqueIdentifier>{5B519B94-7995-4EA0-8012-13CC0984E32E}</UniqueIdentifier>
+    <Filter Include="include\vision">
+      <UniqueIdentifier>{18033753-2E9D-4004-B2F1-6CCF484B9CFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dataset">
+      <UniqueIdentifier>{B3DFC64E-3298-433D-BA3C-936B4F0BFAF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4A9F2DA2-5AC6-4B9C-BEED-A25D58436FB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mlp">
+      <UniqueIdentifier>{D1670490-59E6-466E-8BD2-617C1B660F4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vision">
+      <UniqueIdentifier>{15DD6FD7-A225-4558-AAB4-9C93D187D2ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dataset">
+      <UniqueIdentifier>{6238DD6C-BB21-4C43-B127-BBD035C77B1F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="include\main.cpp">
-      <Filter>include</Filter>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\vision\camera.cpp">
+      <Filter>src\vision</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vision\hand_region.cpp">
+      <Filter>src\vision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\vision\camera.h">
+      <Filter>include\vision</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vision\hand_region.h">
+      <Filter>include\vision</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

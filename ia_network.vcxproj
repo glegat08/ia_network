@@ -90,7 +90,13 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="include\main.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\vision\camera.cpp" />
+    <ClCompile Include="src\vision\hand_region.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\vision\camera.h" />
+    <ClInclude Include="include\vision\hand_region.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
